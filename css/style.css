@@ -1,0 +1,460 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+section,
+.sec1,
+.sec2 {
+    padding: 20px 100px;
+    margin: auto;
+}
+
+/* SECTION 1 */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subnav1 {
+    display: flex;
+}
+
+.subnav11 {
+    color: blue;
+}
+
+.subnav2 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 500px;
+}
+
+.subnav21 {
+    color: blue;
+}
+
+.subnav22 {
+    color: black;
+}
+
+.subnav23 {
+    color: black;
+}
+
+.subnav24 {
+    color: black;
+}
+
+.subnav25 {
+    color: black;
+}
+
+.subnav3 {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+}
+
+.subnav31 {
+    color: blue;
+}
+
+.subnav32 {
+    color: white;
+    background-color: blue;
+    border-radius: 20px;
+    padding: 7px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+.sec1div1 {
+    width: 800px;
+    margin: auto;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.sec1div1 h1 {
+    font-size: 32px;
+}
+
+.sec1div1 span {
+    color: blue;
+}
+
+.sec1div1 p {
+    width: 700px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.sec1div1buttons {
+    margin-top: 40px;
+}
+
+.sec1div1buttons .button1 {
+    border: none;
+}
+
+.sec1div1buttons .button1 a {
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    padding: 10px 50px;
+    border-radius: 20px;
+}
+
+.sec1div1buttons .button2 {
+    border: none;
+    background-color: inherit;
+}
+
+.sec1div1buttons .button2 a {
+    text-decoration: none;
+    padding: 10px 50px;
+}
+
+.sec1div1 .linehug {
+    border: 1px solid lightblue;
+    background: linear-gradient(to right, lightblue, white);
+    margin: auto;
+    margin-left: 200px;
+    padding: 40px;
+    margin-top: 40px;
+    border-radius: 15px;
+    width: 600px;
+    position: relative;
+}
+
+.sec1div1 .linehug p {
+    width: 400px;
+}
+
+.sec1div1 .linehug img {
+    margin-right: 130px;
+}
+
+.sec1div1 .absoluteimg {
+    position: absolute;
+    top: 370;
+    left: 473;
+}
+
+.aftersec1 {
+    margin: auto;
+}
+
+.aftersec1 .ellipse1 {
+    position: relative;
+    margin-top: 40px;
+    z-index: 1;
+    padding-left: 240px;
+}
+
+.aftersec1 .rectangle9 {
+    position: absolute;
+    top: 660;
+}
+
+/* SECTION 1 ENDS */
+
+/* SECTION 2 */
+
+.sec2 {
+    margin-top: 40px;
+}
+
+.sec2 .head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec2 .head .headleft h1 span {
+    color: blue;
+}
+
+.sec2 .head .headright {
+    display: flex;
+    width: 700px;
+    justify-content: space-between;
+}
+
+/* SECTION 2 ENDS */
+
+/* SECTION 3 */
+
+.sec3 {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec3 .left {
+    width: 300px;
+    text-align: left;
+}
+
+.sec3 .left .line70 {
+    position: absolute;
+    left: 90;
+}
+
+.sec3 .left h1 span {
+    color: blue;
+}
+
+.sec3 .right .rightup,
+.sec3 .right .rightdown {
+    display: flex;
+    justify-content: space-between;
+    width: 650px;
+}
+
+.sec3 .right .rightsub {
+    width: 300px;
+}
+
+.sec3 .right .rightimg {
+    margin-bottom: 30px;
+}
+
+.sec3 .right .rightdown {
+    margin-top: 50px;
+}
+
+/* SECTION 3 ENDS */
+
+/* SECTION 4 */
+
+.sec4 {
+    margin-top: 40px;
+}
+
+.sec4 .head {
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+.sec4 .head .line70 {
+    position: absolute;
+    left: 420;
+}
+
+.sec4 .head h1 {
+    font-size: 34px;
+}
+
+.sec4 .head h1 span {
+    color: blue;
+}
+
+.sec4 .body {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.sec4 .body .left,
+.sec4 .body .center,
+.sec4 .body .right {
+    text-align: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.sec4 .body .left ul,
+.sec4 .body .center ul,
+.sec4 .body .right ul {
+    text-align: left;
+}
+
+.sec4 .body .left {
+    border: 1px solid lightblue;
+    height: 300px;
+    margin-top: 100px;
+    border-radius: 10px 0 0 10px;
+}
+
+.sec4 .body .center {
+    background-color: rgb(12, 12, 77);
+    color: white;
+    border-radius: 10px;
+    height: 500px;
+    padding-top: 140px;
+}
+
+.sec4 .body .right {
+    border: 1px solid lightblue;
+    height: 300px;
+    margin-top: 100px;
+    border-radius: 0 10px 10px 0;
+}
+
+.sec4 .buttons {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.sec4 .buttons .button1 {
+    border: none;
+    background-color: inherit;
+}
+
+.sec4 .buttons .button1 a {
+    text-decoration: none;
+    color: blue;
+    border: 1px solid blue;
+    border-radius: 20px;
+    padding: 10px 50px;
+}
+
+.sec4 .buttons .button2 {
+    border: none;
+}
+
+.sec4 .buttons .button2 a {
+    color: white;
+    text-decoration: none;
+    background-color: blue;
+    border-radius: 20px;
+    padding: 10px 50px;
+}
+
+/* SECTION 4 ENDS */
+
+/* SECTION 5 */
+
+.sec5 {
+    margin-top: 40px;
+    padding: 40px;
+    background-color: rgb(12, 12, 77);
+}
+
+.sec5 form {
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    background-color: white;
+    padding: 40px;
+}
+
+.sec5 form .input1 {
+    border: 1px solid lightblue;
+    border-radius: 10px;
+    padding: 10px 50px;
+}
+
+.sec5 .buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 270px;
+    margin: auto;
+}
+
+.sec5 .button1,
+.sec5 .button2 {
+    border: 1px solid lightblue;
+    background-color: inherit;
+    padding: 10px 10px;
+    border-radius: 10px;
+    color: blue;
+}
+
+.sec5 form .submit {
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 50px;
+    cursor: pointer;
+    width: 270px;
+}
+
+/* SECTION 5 ENDS */
+
+/* SECTION 6 */
+
+.sec6 {
+    margin-top: 40px;
+}
+
+.sec6 img {
+    position: absolute;
+    left: 635;
+}
+
+.sec6 h1 {
+    text-align: center;
+}
+
+.sec6 .body {
+    text-align: left;
+    width: 800px;
+    margin: auto;
+}
+
+.sec6 .body ul li {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* SECTION 6 ENDS */
+
+/* SECTION 7 */
+
+.sec7 {
+    margin-top: 40px;
+    text-align: center;
+    background-color: rgb(12, 12, 77);
+}
+
+.sec7 h1 {
+    color: white;
+}
+
+.sec7 .buttons {
+    margin-top: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    padding: 10px 50px;
+    cursor: pointer;
+}
+
+/* SECTION 7 ENDS */
+
+/* SECTION 8 */
+
+.sec8 {
+    margin-top: 40px;
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.sec8 .right {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+}
+
+.seec8 .right div {
+    width: 180px;
+}
+
+/* SECTION 8 ENDS */
