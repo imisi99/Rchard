@@ -72,10 +72,14 @@ nav {
 
 ul {
     list-style-type: none;
+    padding: 0px;
+    padding-top: 0px;
+
 }
 
-ul li a {
+li {
     text-decoration: none;
+    padding-top: 0px;
 }
 
 .sec1div1 {
@@ -409,6 +413,9 @@ ul li a {
 .sec6 .body ul li {
     display: flex;
     justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid red;
 }
 
 /* SECTION 6 ENDS */
@@ -455,6 +462,9 @@ ul li a {
 
 .seec8 .right div {
     width: 180px;
+}
+p {
+    text-align: right;
 }
 
 /* SECTION 8 ENDS */
